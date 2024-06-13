@@ -1,0 +1,69 @@
+[versions]
+agp = "8.3.1"
+cameraExtensions = "1.3.3"
+compiler = "4.16.0"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+mapsMobileVersion = "4.6.1-full"
+material = "1.12.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+mapkit = "4.1.0"
+mapsMobile = "4.2.3-full"
+playServicesMaps = "18.2.0"
+playServicesVision = "20.1.3"
+navigationFragment = "2.7.7"
+navigationUi = "2.7.7"
+playServices = "12.0.1"
+playServicesAds = "23.1.0"
+playServicesWearable = "18.2.0"
+retrofit = "2.11.0"
+roomKtx = "2.6.1"
+exifinterface = "1.3.7"
+library = "8.4.2"
+compilerVersion = "3.1.4"
+
+
+[libraries]
+androidx-camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "cameraExtensions" }
+androidx-camera-core = { module = "androidx.camera:camera-core", version.ref = "cameraExtensions" }
+androidx-camera-extensions = { module = "androidx.camera:camera-extensions", version.ref = "cameraExtensions" }
+androidx-camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraExtensions" }
+androidx-camera-view = { module = "androidx.camera:camera-view", version.ref = "cameraExtensions" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomKtx" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomKtx" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomKtx" }
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "compiler" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "compiler" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+maps-mobile-v461full = { module = "com.yandex.android:maps.mobile", version.ref = "mapsMobileVersion" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+mapkit = { module = "com.yandex.android:mapkit", version.ref = "mapkit" }
+maps-mobile = { module = "com.yandex.android:maps.mobile", version.ref = "mapsMobile" }
+play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "playServicesMaps" }
+play-services-vision = { group = "com.google.android.gms", name = "play-services-vision", version.ref = "playServicesVision" }
+androidx-navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
+androidx-navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationUi" }
+play-services = { group = "com.google.android.gms", name = "play-services", version.ref = "playServices" }
+play-services-ads = { group = "com.google.android.gms", name = "play-services-ads", version.ref = "playServicesAds" }
+play-services-wearable = { group = "com.google.android.gms", name = "play-services-wearable", version.ref = "playServicesWearable" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+androidx-exifinterface = { group = "androidx.exifinterface", name = "exifinterface", version.ref = "exifinterface" }
+library = { group = "com.android.databinding", name = "library", version.ref = "library" }
+databinding-compiler = { group = "com.android.databinding", name = "compiler", version.ref = "compilerVersion" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
